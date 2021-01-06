@@ -13,7 +13,7 @@ let myName = document.querySelector("#myName");
 btnName.addEventListener("click", displayName);
 
 function displayName() {
-  et msg = myName.value;
+  let msg = myName.value;
   document.querySelector("#nameResult").innerHTML=msg;
 }
 
