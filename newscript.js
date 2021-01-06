@@ -13,9 +13,8 @@ let myName = document.querySelector("#myName");
 btnName.addEventListener("click", displayName);
 
 function displayName() {
-  //alert("here");
-  let msg = "Hello world";
-  myName.value = msg;
+  et msg = myName.value;
+  document.querySelector("#nameResult").innerHTML=msg;
 }
 
 //2. Switch lights on mouseover
