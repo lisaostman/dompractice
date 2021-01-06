@@ -42,11 +42,11 @@ function displayMsg() {
 // 4. Traffic Lights
 
 let btnStop = document.querySelector("#btnStop");
-// let btnReady = document.querySelector("#btnReady");
-// let btnGo = document.querySelector("#btnGo");
+let btnReady = document.querySelector("#btnReady");
+let btnGo = document.querySelector("#btnGo");
 let stopDiv = document.querySelector("#stopDiv");
-// let readyDiv = document.querySelector("#readyDiv");
-// let goDiv = document.querySelector("#goDiv");
+let readyDiv = document.querySelector("#readyDiv");
+let goDiv = document.querySelector("#goDiv");
 
 btnStop.addEventListener("click", changeLightsRed);
 btnReady.addEventListener("click", changeLightsYellow);
