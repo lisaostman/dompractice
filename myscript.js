@@ -59,6 +59,4 @@
 //set a constant profile object with a key for name, role, hobbies and an img with relevant values
 //select the button with id btnProfile 
 //on clicking this button, you should have a function displayProfile
-// use for(let property in profile) to iterate over every property in the profile object
-//double check the profile object has this given property, and if it does, select the element with id displayCard
 //change the displayCard's inner html to a html code that inserts and displays the properties inside the profile object

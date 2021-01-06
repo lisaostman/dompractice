@@ -123,9 +123,6 @@ const profile = {
 btnProfile = document.querySelector("#btnProfile");
 btnProfile.addEventListener("click", displayProfile);
 function displayProfile() {
-  for (let property in profile) {
-    if (profile.hasOwnProperty(property)) {
-      // Do things here
       document.querySelector(
         "#displayCard"
       ).innerHTML = `<div class="card" style="width: 18rem;">
@@ -137,5 +134,3 @@ function displayProfile() {
                     </div>
                     </div>`; 
     }
-  }
-}
