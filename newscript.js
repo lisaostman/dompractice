@@ -88,7 +88,8 @@ let myName2 = document.querySelector("#myName2");
 let errMsg = document.querySelector("#errMsg");
 btnSub2.addEventListener("click", validateBox);
 function validateBox() {
-  if (myName2.value == "" && myName2.value.length < 8) {
+  console.log(myName2.value.length)
+  if (myName2.value.length < 8 || myName2 == "") {
     errMsg.innerHTML = "Length should be more than 8";
     document.querySelector("#errMsg").style.color = "#ff0000";
     myName2.focus();
